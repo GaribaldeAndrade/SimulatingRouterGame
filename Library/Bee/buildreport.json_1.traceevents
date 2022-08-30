@@ -1,0 +1,550 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1659014145682624, "dur": 365869, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014145684103, "dur": 34727, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014145719048, "dur": 318973, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014146038036, "dur": 10456, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014149394486, "dur": 1865421, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014149394794, "dur": 10755, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014149405552, "dur": 32514, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014149438099, "dur": 1033860, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014150471962, "dur": 778126, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014151250089, "dur": 9817, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014151260654, "dur": 32, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1659014150255641, "dur": 209734, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659014150256712, "dur": 71347, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659014150450339, "dur": 4395, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659014150454738, "dur": 10625, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659014150455400, "dur": 9192, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659014150469797, "dur": 1304, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659014150468958, "dur": 2188, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014151260793, "dur": 255, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1659014150522679, "dur":1095, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014150523780, "dur":47, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1659014150523839, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1659014150523854, "dur":578, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1659014150524454, "dur":532, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014150524987, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151242697, "dur":280, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151242977, "dur":87, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243064, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243068, "dur":49, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243117, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243121, "dur":49, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243170, "dur":91, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243261, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243276, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243278, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243290, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243292, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243299, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243301, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243308, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243309, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243316, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243317, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243324, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243325, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243332, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243333, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243340, "dur":81, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243421, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243432, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243435, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243440, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243441, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243446, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243448, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243453, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243455, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243460, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243475, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151243527, "dur":1494, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1659014150524826, "dur":175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150525001, "dur":4086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150529099, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1659014150529441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150532537, "dur":13050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1659014150545631, "dur":84079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150629747, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150629990, "dur":7907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150637943, "dur":40364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150678314, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150678369, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150679639, "dur":38208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150717855, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150717869, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150719839, "dur":20873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150740721, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150740734, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150742064, "dur":26968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150769040, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150769054, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150772087, "dur":60891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150832989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150833005, "dur":6733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150839783, "dur":36836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150876650, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150876664, "dur":5582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150882324, "dur":93339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014150975671, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014150975686, "dur":33058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014151008803, "dur":49472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014151058281, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659014151058293, "dur":16609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659014151074944, "dur":167753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659014150524953, "dur":71, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659014150525024, "dur":4068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659014150529095, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1659014150529838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659014150538650, "dur":67625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1659014150606354, "dur":31914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014150638275, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659014150638291, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014150640474, "dur":126919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014150767402, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659014150767415, "dur":4852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014150772308, "dur":45339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014150817652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659014150817664, "dur":13540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014150831249, "dur":107576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014150938831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659014150938844, "dur":39971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014150978861, "dur":171700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014151150596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659014151150610, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659014151152912, "dur":89802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659014150524904, "dur":103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659014150525007, "dur":4094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659014150529103, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1659014150529603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659014150537323, "dur":9225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1659014150546615, "dur":56796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D.exe" }}
+,{ "pid":12345, "tid":3, "ts":1659014150603415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659014150603422, "dur":3127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D.exe" }}
+,{ "pid":12345, "tid":3, "ts":1659014150606605, "dur":35860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659014150642469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659014150642478, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659014150645346, "dur":157365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659014150802718, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659014150802758, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659014150804415, "dur":183921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659014150988369, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659014150988383, "dur":17604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659014151006031, "dur":110977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659014151117014, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659014151117027, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659014151118864, "dur":123838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659014150524937, "dur":73, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659014150525010, "dur":4104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659014150529120, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1659014150529580, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659014150536754, "dur":246116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1659014150782918, "dur":24685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014150807610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659014150807625, "dur":7853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014150815531, "dur":29311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014150844851, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659014150844866, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014150846512, "dur":23688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014150870209, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659014150871832, "dur":5203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014150877103, "dur":89257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014150966367, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659014150966380, "dur":33443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014150999896, "dur":105385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014151105289, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659014151105303, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659014151107063, "dur":135632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659014150524989, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659014150524990, "dur":4088, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659014150529091, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1659014150529092, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659014150529206, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1659014150529212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659014150530684, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1659014150534763, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1659014150534969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659014150535054, "dur":252019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1659014150787120, "dur":27237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659014150814367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659014150814381, "dur":12140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659014150826578, "dur":194034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659014151020620, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659014151020633, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659014151022373, "dur":167219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659014151189599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659014151189613, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659014151190909, "dur":51807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150525042, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150525042, "dur":4077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150529120, "dur":13224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1659014150542349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150542370, "dur":4825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1659014150547273, "dur":55980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150603262, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150604351, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150607341, "dur":23542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150630891, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150631039, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150633719, "dur":49862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150683589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150683602, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150685810, "dur":33578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150719392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150719401, "dur":4355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150723800, "dur":47125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150770962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150770976, "dur":3252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150774265, "dur":45074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150819348, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150819363, "dur":22407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150841811, "dur":120315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150962135, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014150962149, "dur":24449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014150986639, "dur":130485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014151117128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659014151117136, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659014151119120, "dur":123584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659014150525098, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659014150525098, "dur":3991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659014150529091, "dur":13407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1659014150542536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659014150542555, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1659014150545979, "dur":237461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659014150783475, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659014150783487, "dur":63093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659014150846672, "dur":66788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659014150913468, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659014150913481, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659014150915832, "dur":141893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659014151057733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659014151057744, "dur":15929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659014151073713, "dur":168978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150525158, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150525158, "dur":3966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150529125, "dur":13062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1659014150542195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150542232, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1659014150544790, "dur":628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1659014150545427, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150545442, "dur":58101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1659014150603611, "dur":41579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150645196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150645209, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150646917, "dur":38633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150685557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150685650, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150687158, "dur":38333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150725500, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150725515, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150728493, "dur":37516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150766016, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150766028, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150768266, "dur":23555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150791829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150791845, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150793746, "dur":23717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150817474, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150817489, "dur":10848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150828388, "dur":3650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150832046, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150832060, "dur":7442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150839804, "dur":1686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150841498, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150841513, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150842712, "dur":5603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150848323, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150848336, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150850103, "dur":1156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150851266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150851279, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150854160, "dur":1464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150855633, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150855648, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150857161, "dur":80035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150937261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014150937276, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014150938821, "dur":223195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014151162024, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659014151162036, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659014151164612, "dur":78082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150525227, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150525227, "dur":3890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150529118, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1659014150529582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150532782, "dur":10690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1659014150543532, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1659014150543674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150543686, "dur":60485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1659014150604426, "dur":38016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150642450, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150642467, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150645354, "dur":28473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150673835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150673846, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150675476, "dur":63231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150738714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150738835, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150740395, "dur":43270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150783670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150783681, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150785361, "dur":65579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150850948, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150850961, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150853871, "dur":28794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150882673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150882686, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150883949, "dur":48561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150932518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014150932531, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014150933844, "dur":194184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014151128035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659014151128048, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659014151129803, "dur":112908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150525285, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150525285, "dur":3821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150529111, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1659014150529442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150532249, "dur":12658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1659014150544978, "dur":59189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150604172, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150604537, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150607363, "dur":90003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150697375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150697388, "dur":3390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150700822, "dur":51130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150751960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150751973, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150754867, "dur":22713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150777589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150777602, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150780230, "dur":30300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150810538, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150810550, "dur":11558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150822204, "dur":117557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014150939768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014150939780, "dur":91808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014151031631, "dur":112087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014151143723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659014151143732, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659014151145171, "dur":97550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659014150525342, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659014150525343, "dur":3754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659014150529112, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1659014150529760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659014150538080, "dur":250385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1659014150788511, "dur":73567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659014150862081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659014150862088, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659014150864219, "dur":77192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659014150941418, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659014150941432, "dur":49441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659014150990911, "dur":105670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659014151096589, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659014151096604, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659014151098431, "dur":144292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014150525395, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014150525396, "dur":3689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014150529091, "dur":34114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1659014150563214, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014150563875, "dur":40313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1659014150604262, "dur":44685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150648954, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014150648967, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150651227, "dur":47029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150698263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014150698275, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150700217, "dur":22994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150723220, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014150723236, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150726597, "dur":22376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150748981, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014150749123, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150750723, "dur":107361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150858091, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014150858104, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014150860166, "dur":272416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014151132587, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659014151132597, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659014151135715, "dur":106994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150525452, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150525452, "dur":3670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150529124, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1659014150529656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150537552, "dur":10190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1659014150547804, "dur":55462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150603273, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150604231, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150607608, "dur":23464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150631079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150631089, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150632872, "dur":22219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150655129, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150655142, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150656488, "dur":86262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150742758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150742772, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150744364, "dur":36787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150781159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150781172, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150782879, "dur":129332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150912217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150912229, "dur":5707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150917978, "dur":80863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014150998850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014150998864, "dur":15821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014151014728, "dur":224971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014151239704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659014151239713, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659014151242656, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":13, "ts":1659014151242658, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150525513, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150525513, "dur":3597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150529117, "dur":13449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1659014150542571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150542596, "dur":3792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1659014150546447, "dur":63149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1659014150609606, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150609619, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1659014150612687, "dur":19845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150632541, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150632559, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150634001, "dur":66591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150700599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150700612, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150702685, "dur":21790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150724484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150724496, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150727999, "dur":49196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150777204, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150777219, "dur":4030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150781294, "dur":24577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150806888, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150806903, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150808691, "dur":55932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150864630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014150864643, "dur":4255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014150868939, "dur":235876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014151104824, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659014151104838, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659014151106994, "dur":135725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150525568, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150525568, "dur":3527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150529096, "dur":14014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1659014150543119, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150543150, "dur":3764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1659014150547018, "dur":56306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150603329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150604339, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150608012, "dur":25376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150633397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150633411, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150635436, "dur":22700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150658143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150658156, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150659420, "dur":47382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150706811, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150706967, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150708677, "dur":25914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150734599, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150734613, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150736034, "dur":26337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150762377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150762389, "dur":4331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150766778, "dur":27910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150794696, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150794710, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150796553, "dur":67032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150863594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150863606, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150865670, "dur":118233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150983912, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014150983928, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014150985977, "dur":38598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014151024585, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014151024602, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014151026395, "dur":75190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014151101591, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659014151101604, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659014151103084, "dur":139623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150525628, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150525628, "dur":3476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150529105, "dur":14841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1659014150543952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150543979, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1659014150546640, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1659014150546752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150547150, "dur":64339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1659014150611539, "dur":22434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150633980, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150633998, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150635660, "dur":32325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150667991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150668003, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150670758, "dur":22903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150693668, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150693682, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150695177, "dur":24051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150719236, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150719251, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150721981, "dur":40163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150762152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150762166, "dur":4175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150766402, "dur":22624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150789033, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150789047, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150790848, "dur":37976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150828835, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150828849, "dur":5874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150834772, "dur":27286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150862064, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014150862077, "dur":5524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014150867652, "dur":171007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014151038667, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151038680, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014151041621, "dur":2065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014151043693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151043706, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659014151044912, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":16, "ts":1659014151045056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151046687, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":16, "ts":1659014151047993, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1659014151048034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151048121, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1659014151049747, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1659014151049785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151049793, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1659014151051354, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":16, "ts":1659014151051392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151051401, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":16, "ts":1659014151052655, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1659014151052782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151052791, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1659014151054499, "dur":2664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1659014151057171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151057186, "dur":4245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1659014151061470, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1659014151061509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151061518, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1659014151062666, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1659014151062704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151062713, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1659014151063765, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1659014151063805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151063813, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1659014151064966, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1659014151065045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151065056, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1659014151066273, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1659014151066422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659014151066434, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/garib/Documents/UFERSA/Bolsa/Builds/buld atual/Projeto 1 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1659014151067508, "dur":175183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659014151246395, "dur":1792, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1659014151261132, "dur": 751, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659014151260635, "dur": 1261, "ph": "X", "name": "Write chrome-trace events", "args": {} },
