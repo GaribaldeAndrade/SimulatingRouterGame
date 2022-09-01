@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class sphere_movement : MonoBehaviour
 {
-    const int CONST_VELOCITY = 1;
+    const int CONST_VELOCITY = 5;
     private Vector3 velocity;
     private Rigidbody myRigidbody;
 

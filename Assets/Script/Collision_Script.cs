@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(MeshRenderer))]
 public class Collision_Script : MonoBehaviour
 {
-    public bool isOn = false;
+    public string fofocas = "";
     GameObject transferData;
     public Material[] materials;
     public MeshRenderer mr;
@@ -20,7 +20,7 @@ public class Collision_Script : MonoBehaviour
    {
         if (collisionInfo.collider.tag == "ball")
         {
-            if (isOn)
+            if (fofocas.Length > 0)
             {
                 transferData = collisionInfo.gameObject;
             }
@@ -28,15 +28,15 @@ public class Collision_Script : MonoBehaviour
         }
    }
 
-    void LateUpdate()
-    {
-        if (transferData != null && !transferData.GetComponent<Collision_Script>().isOn)
-        {
-            mr.material = materials[0];
-            isOn = false;
-            transferData.GetComponent<MeshRenderer>().material = materials[1];
-            transferData.GetComponent<Collision_Script>().isOn = true;
-            transferData = null;
-        }
-    }
+   void LateUpdate()
+   {
+       if (transferData != null)
+       {
+           mr.material = materials[0];
+           fofocas = "";
+           transferData.GetComponent<MeshRenderer>().material = materials[1];
+           transferData.GetComponent<Collision_Script>().fofocas = "fofoquinhas";
+           transferData = null;
+       }
+   }
 }

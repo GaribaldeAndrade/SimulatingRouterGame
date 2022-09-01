@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2172447457521217802}
   - component: {fileID: -2586637823176578299}
   - component: {fileID: 253355446705927691}
+  - component: {fileID: 2039889700220623106}
   m_Layer: 0
   m_Name: sphere
   m_TagString: ball
@@ -32,6 +33,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.95, y: 0.96, z: 7.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -55,6 +57,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -93,10 +96,10 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2172447457521217805}
   m_Material: {fileID: 13400000, guid: a7da85379e43bf343ad2e8bf3272cfd0, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2172447457521217802
 Rigidbody:
@@ -144,3 +147,17 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 80163153c06976344b076e87916f99c4, type: 2}
   - {fileID: 2100000, guid: 53642c5fb8ecf6a479304b8228fcace1, type: 2}
   mr: {fileID: 0}
+--- !u!136 &2039889700220623106
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2172447457521217805}
+  m_Material: {fileID: 13400000, guid: a7da85379e43bf343ad2e8bf3272cfd0, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

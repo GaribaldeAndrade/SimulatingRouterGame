@@ -11,7 +11,7 @@ public class TimeSpeed : MonoBehaviour
     public void doubleTime()
     {
         if (modifiedScale == 1) {
-            modifiedScale = 5;
+            modifiedScale = 20;
         }
         else 
         {

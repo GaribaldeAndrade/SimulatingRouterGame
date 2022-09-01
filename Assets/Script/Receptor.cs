@@ -11,9 +11,9 @@ public class Receptor : MonoBehaviour
         {
             GameObject ball = collisionInfo.gameObject;
             Collision_Script cs = ball.GetComponent<Collision_Script>();
-            if (cs.isOn)
+            if (cs.fofocas.Length > 0)
             {
-                cs.isOn = false;
+                cs.fofocas = "fofoquinha";
                 cs.mr.material = cs.materials[0];
                 counter++;
                 if (counter >= 10)
